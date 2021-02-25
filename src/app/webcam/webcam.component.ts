@@ -20,6 +20,7 @@ export class WebcamComponent {
   // width: {ideal: 1024},
   // height: {ideal: 576}
   };
+  
   public errors: WebcamInitError[] = [];
   // webcam snapshot trigger
   private trigger: Subject<void> = new Subject<void>();
@@ -48,6 +49,7 @@ export class WebcamComponent {
   }
   public handleImage(webcamImage: WebcamImage): void {
   console.info('received webcam image', webcamImage);
+  console.log('url ',webcamImage.imageAsDataUrl);
   this.pictureTaken.emit(webcamImage);
   }
   public cameraWasSwitched(deviceId: string): void {
@@ -60,6 +62,5 @@ export class WebcamComponent {
   public get nextWebcamObservable(): Observable<boolean|string> {
   return this.nextWebcam.asObservable();
   }
-
 
 }
