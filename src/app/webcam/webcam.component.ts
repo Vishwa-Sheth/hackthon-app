@@ -41,6 +41,10 @@ export class WebcamComponent {
   public handleInitError(error: WebcamInitError): void {
   this.errors.push(error);
   }
+  public imageURL: string;
+  public getImageURL(){
+    return this.imageURL;
+  }
   public showNextWebcam(directionOrDeviceId: boolean|string): void {
   // true => move forward through devices
   // false => move backwards through devices
@@ -50,6 +54,7 @@ export class WebcamComponent {
   public handleImage(webcamImage: WebcamImage): void {
   console.info('received webcam image', webcamImage);
   console.log('url ',webcamImage.imageAsDataUrl);
+  this.imageURL=webcamImage.imageAsDataUrl;
   this.pictureTaken.emit(webcamImage);
   }
   public cameraWasSwitched(deviceId: string): void {
