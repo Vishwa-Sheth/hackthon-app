@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {Subject,Observable} from 'rxjs';
 import {WebcamImage, WebcamInitError, WebcamUtil} from 'ngx-webcam';
 import { Output, EventEmitter } from '@angular/core';
+import {GetRequestService} from '../get-request.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-webcam',
@@ -32,8 +34,11 @@ export class WebcamComponent {
   this.multipleWebcamsAvailable = mediaDevices && mediaDevices.length > 1;
   });
   }
+  private getRequestService:GetRequestService;
+   
   public triggerSnapshot(): void {
   this.trigger.next();
+  this.getRequestService.sendGETRequestWithParameters();
   }
   public toggleWebcam(): void {
   this.showWebcam = !this.showWebcam;
