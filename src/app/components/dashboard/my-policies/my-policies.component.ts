@@ -3,7 +3,10 @@ import { CustomerModel, ErrorCustomerUIModel, } from 'src/app/models/customerPro
 import { RestService } from "src/app/services/rest.service";
 import { eChannelConfig } from 'src/app/constants/configuration';
 import * as Constants from "src/app/constants/Constants";
+import {Subject,Observable} from 'rxjs';
+import {WebcamImage} from 'ngx-webcam';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { WebcamComponent } from './../../../webcam/webcam.component';
 
 
 
@@ -52,7 +55,11 @@ export class MyPoliciesComponent implements OnInit {
   submitForm: FormGroup;
   submitErrorFlag: boolean = false;
   submitemailErrorMessage: string = "";
-
+  
+  public webcamImage: WebcamImage = null;
+  handleImage(webcamImage: WebcamImage) {
+  this.webcamImage = webcamImage;
+  }
   constructor(private _restService: RestService, private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
