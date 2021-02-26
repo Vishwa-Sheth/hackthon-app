@@ -124,7 +124,7 @@
         }
       }
     }
-  },,
+  },
     "lib": {
       "projectType": "library",
       "root": "projects/lib",
