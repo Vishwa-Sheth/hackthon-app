@@ -15,7 +15,7 @@ import {
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
-export class DemoComponent implements OnInit {
+export class LoginComponent implements OnInit {
 
   user: SocialUser;
   GoogleLoginProvider = GoogleLoginProvider;
