@@ -56,10 +56,10 @@ export class MyPoliciesComponent implements OnInit {
   submitErrorFlag: boolean = false;
   submitemailErrorMessage: string = "";
   
-  public webcamImage: WebcamImage = null;
-  handleImage(webcamImage: WebcamImage) {
-  this.webcamImage = webcamImage;
-  }
+  // public webcamImage: WebcamImage = null;
+  // handleImage(webcamImage: WebcamImage) {
+  // this.webcamImage = webcamImage;
+  // }
   constructor(private _restService: RestService, private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {

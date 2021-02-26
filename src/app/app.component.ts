@@ -10,8 +10,8 @@ import {WebcamImage} from 'ngx-webcam';
 })
 export class AppComponent {
   title = 'LoginPage';
-  public webcamImage: WebcamImage = null;
-  handleImage(webcamImage: WebcamImage) {
-  this.webcamImage = webcamImage;
-  }
+  // public webcamImage: WebcamImage = null;
+  // handleImage(webcamImage: WebcamImage) {
+  // this.webcamImage = webcamImage;
+  // }
 }

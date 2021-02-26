@@ -1,16 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { WebcamComponent } from '../../../webcam/webcam.component';
-import {WebcamModule} from 'ngx-webcam';
+// import { WebcamComponent } from '../../../webcam/webcam.component';
+// import {WebcamModule} from 'ngx-webcam';
 
 
 @NgModule({
   declarations: [
-    WebcamComponent
+    // WebcamComponent
   ],
   imports: [
     BrowserModule,
-    WebcamModule
+    // WebcamModule
   ],
   exports: [ BrowserModule]
 })

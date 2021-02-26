@@ -14,15 +14,17 @@ import { HTTP_INTERCEPTORS } from "@angular/common/http";
 import { DatePipe } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import * as Constants from "src/app/constants/Constants";
-import {WebcamModule} from 'ngx-webcam';
 import {MyPoliciesModule} from './components/dashboard/my-policies/my-policies.module'
+import { WebcamComponent } from './webcam/webcam.component';
+import {WebcamModule} from 'ngx-webcam';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SkipLoginComponent
+    SkipLoginComponent,
+    WebcamComponent
   ],
   imports: [
     BrowserModule,
