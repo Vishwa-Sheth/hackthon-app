@@ -1,0 +1,43 @@
+<div id="PublicWrapper" class="sfPublicWrapper" style="background: #003d59; overflow-y: scroll; overflow-x: hidden; height: 650px;" [ngClass]="{'close-sidebar': navFlag}">
+  <div class="sf_cols">
+    <div class="sf_colsOut main_body">
+      <div class="sf_colsIn sf_1col_1in_100">
+        <div class="sfContentBlock">
+          <div class="mainWrapper ip-main main-wrap">
+            <div class="wrapper-content dashboard-page bg-grey">
+              <div class="il-container">
+                <div class="dashboard-block">
+                  <div id="toggleDash" class="dashToggle">
+                    <i></i><i></i><i></i>
+                  </div>
+                  <div class="col-table col-row mainCol">
+                    <div class="col-xs-3 col-cell">
+                      <div id="profileView" class="left-tabarea">
+                        <app-left-pane (onNavSelect)="showDetails($event)" [navClass]="page"></app-left-pane>
+                        <div id="nav-opener" class="menuOpener" (click)="openNav()"></div>
+                        </div>
+                      </div>
+                      <div class="col-xs-9 col-cell">
+                        <div class="right-tabarea">
+                          <app-personal-details *ngIf="isPersonalDetails"></app-personal-details>
+                          <app-my-policies *ngIf="isMyPolicy"></app-my-policies>
+                          <app-payments *ngIf="isPayment"></app-payments>
+                          <app-saved-quote *ngIf="isSavedQuote"></app-saved-quote>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-overlay" style="display: block;" *ngIf="navFlag"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+

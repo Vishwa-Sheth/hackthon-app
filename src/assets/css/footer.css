@@ -1,0 +1,187 @@
+/*footer start*/
+footer .footerContainerbg{
+	background: #fafdfd;
+	border-top: 1px solid #e6ebf0;
+	border-bottom: 1px solid #e6ebf0;
+	padding: 25px 0;
+	margin-bottom: 40px;
+}
+footer .footerContainerbg .footerMenu h4{
+	font-weight: bold;
+	font-size: 15px;
+	color: #333333;
+    padding: 20px 0;
+    margin: 0;
+}
+
+footer .footerContainerbg .footerMenu ul li{
+	list-style-type: none;	
+}
+
+footer .footerContainerbg .footerMenu ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #666666;
+	line-height: 25px;
+	display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    overflow: hidden;
+}
+footer .footerContainerbg .footerMenu ul li a:hover{
+	color: #000;
+}
+footer .footerContainerbg .footerMenu ul li a:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #000;
+    height: 1px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+footer .footerContainerbg .footerMenu ul li a:hover:before, footer .footerContainerbg .footerMenu ul li a:focus:before, footer .footerContainerbg .footerMenu ul li a:active:before {
+    right: 0;
+}
+footer .footerContainerbg .footerLogo{
+	padding: 25px 0;
+}
+footer .footerContainerbg h5{
+	font-size: 14px;
+	color: #000;
+	padding: 8px 0;
+}
+
+footer .groupWebsites .select {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    color: #646565;
+    border: 1px solid #c9d6e0;
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 5px;
+    font-weight: normal;
+}
+footer .groupWebsites .styledSelect {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color:white;
+    padding:8px 10px;
+    opacity: 1;
+    font-size: 14px;
+    color: #646565;
+    border-radius: 5px;
+}
+footer .groupWebsites .styledSelect:after {
+    content:"";
+    width:0;
+    height:0;
+    border:5px solid transparent;
+    border-color:black transparent transparent transparent;
+    position:absolute;
+    top: 15px;
+    right: 10px;
+}
+footer .groupWebsites .options {
+    display:none;
+    position:absolute;
+    top:100%;
+    right:0;
+    left:0;
+    z-index:999;
+    margin:0 0;
+    padding:0 0;
+    list-style:none;
+    border:1px solid #c9d6e0;
+    background-color:white;
+    -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+}
+footer .groupWebsites .options li {
+    margin:0 0;
+    padding:6px 10px;
+    transition: all 0.5s ease;
+}
+footer .groupWebsites .options li:hover {
+    background-color:#063b6d;
+    color:#fff;
+}
+
+
+footer .footerContainerbg .socialIcons ul li{
+	display: inline-block;
+	margin-right: 4px;
+}
+footer .footerContainerbg .socialIcons ul li:last-child{
+	margin-right: 0;
+}
+footer .footerContainerbg .socialIcons ul li a{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    padding: 6px;
+    background: #333333;
+    height: 37px;
+    width: 37px;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer .footerContainerbg .socialIcons ul li a.fbHover:hover{
+    background: #3b5997;
+    color: #fff;
+    transition: all 0.6s ease;
+}
+footer .footerContainerbg .socialIcons ul li a.linkHover:hover{
+    background: #006dc0;
+    color: #fff;
+    transition: all 0.6s ease;
+}
+footer .footerContainerbg .socialIcons ul li a.googplHover:hover{
+    background: #d13d2f;
+    color: #fff;
+    transition: all 0.6s ease;
+}
+footer .footerContainerbg .socialIcons ul li a.twtrHover:hover{
+    background: #29c5f6;
+    color: #fff;
+    transition: all 0.6s ease;
+}
+footer .footerContainerbg .socialIcons ul li a.youtHover:hover{
+    background: #de332c;
+    color: #fff;
+    transition: all 0.6s ease;
+}
+footer .footerContainerbg .socialIcons ul li a.instaHover:hover{
+    background: #6c27b3;
+    color: #fff;
+    transition: all 0.6s ease;
+}
+
+footer .footerPara{
+	margin-bottom: 35px;
+}
+
+footer .footerPara p{
+    font-size: 11px;
+    color: #666666;
+    line-height: 16px;
+    padding: 0;
+}
+/*footer end*/

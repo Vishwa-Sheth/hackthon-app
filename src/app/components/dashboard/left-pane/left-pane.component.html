@@ -1,0 +1,42 @@
+
+    <div class="sticky">
+      <div class="user-info">
+        <div id="toggleDash2" class="dashToggle">
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+        <figure class="user-ico">
+          <div class="profile-dp">
+            <img class="dpChanged" :src="this.userImage">
+          </div>
+          <!-- <button id="open-dpPopup" class="dp-changer"></button> -->
+        </figure>
+        <h3>{{name}}</h3>
+        <span>{{mail}}  </span>
+       
+        <input type="file" name="" id="upload-dp" accept="image/png, image/jpeg, image/jpg, image/gif, image/webp" class="hidden">
+      </div>
+      <ul id="sel-option" class="toc-odd tab-block" style="display: block;">
+        <li rel="tab1"
+            class="" [ngClass]="{'active': navClass == 'personal-details'}"
+            style="cursor:pointer"
+            (click)="openPersonalDetails()">Account</li>
+        <li rel="tab2"
+            [ngClass]="{'active': navClass == 'my-policies'}"
+            style="cursor:pointer"
+            (click)="openMyPolicies()">My Policies</li>
+        <li rel="tab3"
+            [ngClass]="{'active': navClass == 'payments'}"
+            style="cursor:pointer"
+            (click)="openPayments()">Payments</li>
+        <li rel="tab5"
+            [ngClass]="{'active': navClass == 'saved-quote'}"
+            style="cursor:pointer"
+            (click)="openSavedQuote()">Saved Quote</li>
+        
+      </ul>
+    </div>
+
+
+

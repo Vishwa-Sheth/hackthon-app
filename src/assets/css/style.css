@@ -1,0 +1,863 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/docs/default-source/assets/css/fonts/icomoon8c0000ff45fd68ff8a0df0055df07ddb.eot?ivuybc');
+  src:  url('/docs/default-source/assets/css/fonts/icomoon8c0000ff45fd68ff8a0df0055df07ddb.eot?ivuybc#iefix') format('embedded-opentype'),
+    url('/docs/default-source/assets/css/fonts/icomoon8c0000ff45fd68ff8a0df0055df07db1.ttf?ivuybc') format('truetype'),
+    url('/docs/default-source/assets/css/fonts/icomoon8c0000ff45fd68ff8a0df0055df07db8.woff?ivuybc') format('woff'),
+    url('/docs/default-source/assets/css/fonts/icomoon.svg?ivuybc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IndianRupee';
+  src: url('/docs/default-source/assets/css/fonts/indianrupee-regular_gdi8c0003ff45fd68ff8a0df0055e455758.eot');
+  src: url('/docs/default-source/assets/css/fonts/indianrupee-regular_gdi8c0003ff45fd68ff8a0df0055e455758.eot?#iefix') format('embedded-opentype'),
+       url('/docs/default-source/assets/css/fonts/indianrupee-regular_gdi.woff2') format('woff2'),
+       url('/docs/default-source/assets/css/fonts/indianrupee-regular_gdi.woff') format('woff'),
+       url('/docs/default-source/assets/css/fonts/indianrupee-regular_gdi8c0003ff45fd68ff8a0df0055e455762.ttf') format('truetype'),
+       url('/docs/default-source/assets/css/fonts/indianrupee-regular_gdi8c0003ff45fd68ff8a0df0055e45575d.svg') format('svg');
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1.2;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-qte .path1:before {
+  content: "\e900";
+  color: rgb(0, 0, 0);
+}
+.icon-qte .path2:before {
+  content: "\e901";
+  margin-left: -1.5791015625em;
+  color: rgb(255, 0, 0);
+}
+.icon-qte .path3:before {
+  content: "\e902";
+  margin-left: -1.5791015625em;
+  color: rgb(153, 51, 0);
+}
+.icon-qte .path4:before {
+  content: "\e903";
+  margin-left: -1.5791015625em;
+  color: rgb(254, 160, 38);
+}
+.icon-qte .path5:before {
+  content: "\e904";
+  margin-left: -1.5791015625em;
+  color: rgb(255, 255, 0);
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	overflow-x: hidden;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+  overflow: hidden;
+}
+.bodyWrapper h1{
+    color: #053c6d;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+  /*insurance home banner*/
+ .mainbannerBg{
+	background-image: url(/images/default-source/HomeRevamp/insurancehomebg.jpg);
+	background-repeat: no-repeat;
+    min-height: 604px;
+    background-size: cover;
+}
+ .mainbannerBg h1{
+	color: #053c6d;
+	font-size: 35px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	padding: 30px 0 45px;
+	letter-spacing: 1px;
+}
+ .mainbannerBg .insuranceBox ul{
+	margin: 0;
+}
+.mainbannerBg .insuranceBox .insImg{
+      padding: 15px 0;
+}
+.mainbannerBg .insuranceBox .insImg .twoWhico{
+    background-image: url(/images/default-source/HomeRevamp/page-sprite-img.png);
+    background-position: -18px 0px;
+    display: block;
+    width: 150px;
+    height: 115px;
+    text-align: center;
+    margin: auto;
+}
+.mainbannerBg .insuranceBox .insImg .carinIco{
+    background-image: url(/images/default-source/HomeRevamp/page-sprite-img.png);
+    background-position: -177px 0px;
+    display: block;
+    width: 150px;
+    height: 115px;
+    text-align: center;
+    margin: auto;
+}
+.mainbannerBg .insuranceBox .insImg .travllinIco{
+    background-image: url(/images/default-source/HomeRevamp/page-sprite-img.png);
+    background-position: -325px 0px;
+    display: block;
+    width: 150px;
+    height: 115px;
+    text-align: center;
+    margin: auto;
+}
+.mainbannerBg .insuranceBox .insImg .healthIncico{
+    background-image: url(/images/default-source/HomeRevamp/page-sprite-img.png);
+    background-position: -484px 0px;
+    display: block;
+    width: 150px;
+    height: 115px;
+    text-align: center;
+    margin: auto;
+}
+.mainbannerBg .insuranceBox .insImg .homeincIco{
+    background-image: url(/images/default-source/HomeRevamp/page-sprite-img.png);
+    background-position: -627px 0px;
+    display: block;
+    width: 150px;
+    height: 115px;
+    text-align: center;
+    margin: auto;
+}
+ .mainbannerBg .insuranceBox ul li{
+      width: 19.32%;
+	background: #fff;
+	min-height: 341px;
+	display: inline-block;
+  margin-right: 0.85%;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: top;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+    float: left;
+}
+.mainbannerBg .insuranceBox ul li:hover{
+  border-bottom: 7px solid #063b6d;
+ /* border-right: 1px solid #b1c8d5;
+  border-left: 1px solid #b1c8d5;
+  border-top: 1px solid #b1c8d5;
+  transition: all 0.4s ease;*/
+}
+
+.mainbannerBg .insuranceBox ul li:hover span.gtBtn{
+  background: #063b6d;
+  color: #fff;
+}
+ .mainbannerBg .insuranceBox ul li:last-child{
+   margin-right: 0;
+ }
+ .mainbannerBg .insuranceBox ul li img{
+	padding: 15px 0 10px;
+}
+ .mainbannerBg .insuranceBox ul li h3{
+	color: #063b6d;
+	font-size: 18px;
+	padding-bottom: 4px;
+}
+ .mainbannerBg .insuranceBox ul li h5{
+	font-size: 14px;
+	color: #333333;
+  font-weight: 400;
+}
+ .mainbannerBg .insuranceBox ul li span.gtBtn{
+	border:1px solid #124474;
+	border-radius: 50px;
+	padding: 8px 20px;
+	font-size: 15px;
+	margin: 25px 0;
+	display: inline-block;
+	color: #063b6d;
+	text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+ 
+ .mainbannerBg .insuranceBox ul li a:after {
+ content: '';
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ width: 5px;
+ height: 5px;
+ background: rgba(255, 255, 255, .5);
+ opacity: 0;
+ border-radius: 100%;
+ transform: scale(1, 1) translate(-50%);
+ transform-origin: 50% 50%;
+}
+
+@keyframes ripple {
+ 0% {
+   transform: scale(0, 0);
+   opacity: 1;
+ }
+ 20% {
+   transform: scale(25, 25);
+   opacity: 1;
+ }
+ 100% {
+   opacity: 0;
+   transform: scale(40, 40);
+ }
+}
+
+ .mainbannerBg .insuranceBox ul li a:focus:not(:active)::after {
+ animation: ripple 1s ease-out;
+}
+  /*insurance home banner*/
+
+
+  /*lombard partner*/
+ .partnerSection h1{
+	font-size: 32px;
+	color: #063b6d;
+	padding: 25px 0 0;
+}
+  .partnerSection h5{
+	font-size: 17px;
+	color: #333333;
+}
+  .partnerSection .networksPartner p{
+	color: #e57200;
+  font-size: 20px;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+    padding: 15px 0 40px;
+    line-height: 28px;
+}
+  .partnerSection .networkAll{
+	padding-bottom: 45px;
+}
+.netwImg{
+	border: 3px solid #eff7f8;
+  padding: 19px;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.partnerSection .networkAll .partnerHosico{
+    background-image: url(/images/default-source/HomeRevamp/page-sprite-img.png);
+    background-position: -391px -149px;
+    display: block;
+    width: 48px;
+    height: 56px;
+    text-align: center;
+    margin: auto;
+}
+.partnerSection .networkAll .partnerGarico{
+    background-image: url(/images/default-source/HomeRevamp/page-sprite-img.png);
+    background-position: -485px -149px;
+    display: block;
+    width: 48px;
+    height: 56px;
+    text-align: center;
+    margin: auto;
+}
+.partnerSection .networkAll .eveMinico{
+    background-image: url(/images/default-source/HomeRevamp/page-sprite-img.png);
+    background-position: -580px -151px;
+    display: block;
+    width: 65px;
+    height: 52px;
+    text-align: center;
+    margin: auto;
+}
+.partnerSection .networkAll .resIco{
+    background-image: url(/images/default-source/HomeRevamp/page-sprite-img.png);
+    background-position: -689px -150px;
+    display: block;
+    width: 48px;
+    height: 56px;
+    text-align: center;
+    margin: auto;
+}
+ .partnerSection .networkAll h2{
+	font-size: 30px;
+	font-weight: bold;
+	color: #1a346a;
+	margin-top: 10px;
+}
+ .partnerSection .networkAll h4{
+	font-size: 20px;
+	color: #555555;
+	padding-bottom: 20px;
+}
+ .partnerSection .networkAll a{
+  width: 80%;
+      padding: 10px 25px;
+}
+ .partnerSection .networkAll a:hover .netwImg {
+    background: #fdbf5e;
+    border: 3px solid #e7f4f6;
+    transition: all 0.9s ease;
+}
+ .partnerSection .networkAll p{
+  text-align: left;
+  color: #333333;
+  font-size: 15px;
+  line-height: 23px;
+  min-height: 130px;
+  padding-bottom: 25px;
+}
+ .linkBtn{
+	border: 1px solid #063b6d;
+  border-radius: 20px;
+  padding: 8px 25px;
+  font-size: 12px;
+  display: inline-block;
+  color: #063b6d;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight:600;
+}
+ .linkBtn:hover{
+	background: #063b6d;
+	color: #fff;
+	transition: all 0.8s ease;
+}
+.bgsChgh{
+    background: #fdbf5e;
+    border: 3px solid #e7f4f6;
+    transition: all 0.8s ease;
+}
+
+  /*lombard partner*/
+
+
+  /*insurance article*/
+.articleSection .artInoupdates img{
+  width: 100%;
+  position: relative;
+}
+
+.articleSection .artInoupdates{
+  padding: 45px 0 50px;
+  display: inline-block;
+  width:100%;
+  }
+.articleSection .insuranceUpdinfo{
+    width: 30%;
+    float: left;
+    background: #f1f8fa;
+    margin: 15px 0;
+    border-radius: 10px;
+  }
+.slideshow {
+  position: relative;
+  overflow:hidden;
+  min-height: 412px; 
+}
+
+.articleSection .insuranceUpdinfo .boxTextarea{
+      padding: 15px 25px 30px;
+}
+.articleSection .artInoupdates h2{
+    padding: 25px 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #063b6d;
+    margin: 0;
+  }
+.articleSection .artInoupdates h3{
+    font-size: 20px;
+    color: #063b6d;
+    line-height: 25px;
+}
+.articleSection .artInoupdates p{
+    margin: 0;
+    padding-bottom: 10px;
+}
+.articleSection .insuranceArticles{
+    width: 40%;
+    float: left;
+    position: relative;
+    border-radius: 10px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
+  min-height: 540px;
+  z-index: 2;    
+  }
+.articleSection .insuranceArticles .boxTextarea{
+      padding: 15px 25px 25px;
+}
+.artDots {
+  margin: 15px 0;
+  float: right;
+}
+.articleSection .dotsBtn {
+    padding: 25px 25px 0;
+}
+.dotsArt{
+  display: inline-block;
+  margin-right: 10px;
+}
+.dotsArt span{
+  height: 8px;
+  width: 8px;
+  border-radius: 50px;
+  display: inline-block;
+  background: #f5c68a;
+}
+.dotsArt span.active{
+  background: #eb8e15;
+}
+.articlesSlides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background:#fff;
+}
+
+  /*insurance article*/
+
+
+  /*awards blog*/
+
+.awardsBlogmain{
+      border-top: 1px solid #e6ebf0;
+    padding: 40px 0 10px;
+    margin-top: 20px;
+}
+
+
+ .awardsBlogmain .awardsBlog h2{
+    padding: 25px 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #063b6d;
+    margin: 0;
+}
+
+.awardsBlogmain .awardsBlog figure{
+  border-radius: 5px;
+    overflow: hidden;
+}
+.awardsBlogmain .awardsBlog figure img{
+  width: 100%;
+}
+ .awardsBlogmain .awardsBlog .riskInv h4{
+  font-size: 25px;
+  color: #e57200;
+}
+ .awardsBlogmain .awardsBlog h3{
+      font-size: 20px;
+    color: #063b6d;
+    line-height: 25px;
+}
+ .awardsBlogmain .awardsBlog .riskInv{
+    background: #fff;
+    border: 15px solid #f2f5f8;
+    border-radius: 10px;
+    padding: 20px 50px 45px;
+    margin-right: 30px;
+    min-height: 300px;
+}
+ .awardsBlogmain .mainDots{
+  margin: 0;
+  position: relative;
+  text-align: center;
+  bottom: -20px;
+  width:100%;
+}
+ .awardsBlogmain .dots{
+  display: inline-block;
+  margin-right: 10px;
+}
+ .awardsBlogmain .dots span{
+  height: 8px;
+  width: 8px;
+  border-radius: 50px;
+  display: inline-block;
+  background: #f5c68a;
+
+}
+ .awardsBlogmain .dots.active span{
+  background: #eb8e15;
+}
+   .awardsBlogmain .slideshowRisk {
+    position: relative;
+    min-height: 255px;
+    display: block;
+}
+ .awardsBlogmain .slideshow{
+  position: relative;
+  min-height: auto;
+  z-index: 2;
+}
+.awardsBlogmain .awardsBlog .rupeeSym{
+ font-family: 'IndianRupee';
+ font-size: 15px;
+ } 
+/*.slideshowRisk .riskInv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}*/
+
+  /*awards blog*/
+
+
+  /*health advisor*/
+ .healthAdvisor{
+  padding: 50px 0 60px;
+  border-bottom: 1px solid #e6ebf0;
+  border-top: 1px solid #e6ebf0;
+  margin: 50px 0 95px
+}
+ .healthAdvisor h3 {
+  color: #063b6d;
+  font-size: 18px;
+  padding-bottom: 4px;
+}
+.bodyWrapper .healthAdvisor p {
+    padding: 20px 0 10px;
+}
+ .helthAdarea {
+  padding: 30px 0 0;
+}
+  /*health advisor*/
+
+
+  /*insurance app*/
+ .insuranceAppbg{
+  width: 100%;
+  background: #e7f4f6;
+  margin: 0 auto;
+    margin-bottom: 6%;
+}
+ .insuranceAppbg .insuareAppdetails{
+    padding: 50px 0 70px;
+}
+ .insuranceAppbg .insuareAppdetails .insApp{
+  width: 42%;
+  display: inline-block;
+}
+ .insuranceAppbg .insuareAppdetails .insApp h1{
+  font-size: 30px;
+  padding: 0;
+}
+ .insuranceAppbg .insuareAppdetails .insApp h6{
+  font-size: 15px;
+  color: #333333;
+}
+ .insuranceAppbg .insuareAppdetails .insApp .downFrom{
+  padding-top: 20px;
+}
+ .insuranceAppbg .insuareAppdetails .insApp .googlePlayimg{
+    margin-right: 10px;
+    background-image: url(/images/default-source/HomeRevamp/page-sprite-img.png);
+    background-position: -30px -244px;
+    display: inline-block;
+    width: 137px;
+    height: 47px;
+}
+ .insuranceAppbg .insuareAppdetails .insApp .appStoreimg{
+    padding-right: 10px;
+    background-image: url(/images/default-source/HomeRevamp/page-sprite-img.png);
+    background-position: -788px -154px;
+    display: inline-block;
+    width: 137px;
+    height: 47px;
+}
+ .insuranceAppbg .insuareAppdetails .insSpect{
+  width: 47%;
+  display: inline-block;
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px 30px;
+  border-bottom: 5px solid #f1b05b;
+  vertical-align: bottom;
+}
+ .insuranceAppbg .insuareAppdetails .insSpect h4{
+  font-weight: bold;
+  font-size: 15px;
+  color: #00a651;
+  letter-spacing: 1px;
+}
+ .insuranceAppbg .insuareAppdetails .insSpect h3{
+  font-size: 20px;
+  color: #eb8e15;
+  font-weight: bold;
+}
+ .insuranceAppbg .mobImagerel{
+  position: relative;
+}
+ .insuranceAppbg .mobImagerel .mobAppimg{
+  position: absolute;
+  right: 0;
+  top: -35px;
+}
+  /*insurance app*/
+
+
+  /*latest videos*/
+ .videoDetailsbdr {
+  border-top: 1px solid #e6ebf0;
+  display: inline-block;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.videoDetailsbdr .videosDetails{
+  padding: 45px 0 0;
+}
+
+.videoDetailsbdr .videosDetails h1{
+  display: inline-block;
+  font-size: 28px;
+  padding: 0;
+}
+.videoDetailsbdr .latestVideos ul{
+  
+  padding: 0 0 25px;
+  position: relative;
+  float: left;
+  width:100%;
+}
+.videoDetailsbdr .latestVideos ul li{
+  float: left;
+  padding: 20px 0;
+  width: 25%;
+  margin-bottom: 45px;
+  list-style: none;
+  position: relative;
+}
+.videoDetailsbdr .latestVideos ul li:hover span{
+  transition: all 0.2s ease;
+  height: 5px;
+}
+.videoDetailsbdr .latestVideos ul li a{
+  display: block;
+  text-decoration: none;
+}
+.videoDetailsbdr .latestVideos ul li a h4{
+  padding: 12px 25px 0;
+  color: #063b6d;
+  font-size: 17px;
+  line-height: 22px;
+}
+.videoDetailsbdr .latestVideos ul li span{
+  width: 100%;
+  height: 2px;
+  background: #fdbf5e;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+.videoDetailsbdr .latestVideos img{
+  width: 100%;
+}
+.videoDetailsbdr .latestVideos ul li:first-child::after{
+  border-bottom: none;
+}
+.videoDetailsbdr .videosDetails .videoBtn{
+  padding: 8px 0;
+}
+.videoDetailsbdr .latestVideos .videoThumimg{
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 168px;
+  display: block;
+/*  background-position: -32px 0;
+*/}
+.videoDetailsbdr .latestVideos .videoThumimg .playIco{
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    background: #fdbf5e;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.8;
+}
+
+.videoDetailsbdr .latestVideos .videoThumimg .playIco:hover{
+  opacity: 1;
+}
+
+a.playIco:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 16px solid white;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto auto auto 19px;
+}
+.videoDetailsbdr .latestVideos .videoStp{
+  background: #000;
+}
+.videoDetailsbdr .latestVideos .videoThum1{
+  background-image: url(/images/default-source/HomeRevamp/videoimg1.jpg);
+}
+.videoDetailsbdr .latestVideos .videoThum2{
+  background-image: url(/images/default-source/HomeRevamp/videoimg2.jpg);
+}
+.videoDetailsbdr .latestVideos .videoThum3{
+  background-image: url(/images/default-source/HomeRevamp/videoimg3.jpg);
+}
+.videoDetailsbdr .latestVideos .videoThum4{
+  background-image: url(/images/default-source/HomeRevamp/videoimg4.jpg);
+}
+
+  /*latest videos*/
+
+
+  /*customer speak*/
+ .customerSpeakbg{
+  background: #e7f4f6;
+  padding: 15px 0 20px;
+}
+ .customerSpeakbg .cusSpeak .speakRed{
+  color: #053c6d;
+  font-size: 14px;
+  padding: 15px 0 30px;
+  display: block;
+  font-style: italic;
+}
+ .customerSpeakbg .speakBlock{
+  background: #fff;
+  padding: 30px 20px 20px;
+  margin: 30px 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.customerSpeakbg .speakBlock .qutIco{
+  background-image: url(/images/default-source/HomeRevamp/page-sprite-img.png);
+  background-position: -210px -236px;
+  width: 96px;
+  height: 76px;
+  display:block;
+  margin: 0 20px
+}
+.customerSpeakbg .speakBlock p{
+  padding: 45px 20px 0;
+}
+.customerSpeakbg .speakBlock h3{
+  padding: 0 20px;
+  color: #333;
+  font-size: 17px;
+  font-weight: 600;
+}
+.customerSpeakbg .speakBlock .testImgico{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    display: block;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    background: #e7f4f6;
+    overflow: hidden;
+}
+.customerSpeakbg .speakBlock .testImgico img{
+  width: 100%;
+}
+
+ .bodyWrapper p{
+  color: #333333;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 5px 0 0;
+  font-weight: 400;
+}
+
+ .customerSpeakbg .custSpeakbtn{
+  padding: 45px 0 15px;
+  width: 275px;
+  text-align: center;
+  margin: auto;
+}
+ .customerSpeakbg .span12{
+  margin: 0 75px;
+}
+ .customerSpeakbg .blockBtn{
+  padding: 25px 0 30px;
+}
+  /*customer speak*/
+
+  /*popup*/
+  .overlay{
+    background:#000;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1;
+  }
+  div#ascrail2000-hr {
+    display: block !important;
+}
+  /*popup*/

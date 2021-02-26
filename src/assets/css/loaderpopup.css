@@ -1,0 +1,193 @@
+
+.loader, .loader_tr {
+  display: block;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: rgba(255,255,255,0.9);
+  z-index: 99999;
+}
+.loader .innerT{position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    text-align: center;}
+
+.loader p{
+    font-size: 15px;
+    color: #053c6d;
+}
+.lightBoxHold,
+.overLay {
+  position: fixed;
+  width: 100%;
+  display: block;
+  left: 0;
+}
+.overLay {
+    height: 100%;
+    top: 0;
+    background: #282824;
+    opacity: .8;
+    z-index: 99999;
+}
+.lightBoxHold {
+    top: 20%;
+    z-index: 999991;
+}
+.lightBoxHold.lightBoxHoldmaps {
+    position: absolute
+}
+.lightBox {
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    width: 600px;
+    max-height: 550px;
+    overflow: auto
+}
+.closeBtn {
+    float: right;
+    margin-bottom: 30px;
+    cursor: pointer
+}
+.lightBox p {
+    clear: both;
+    margin: 30px 0;
+    font-size: 22px;
+    color: #053C6D
+}
+.LbBtnHold input,
+.LbBtnHold span {
+    padding: 5px 20px;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer
+}
+.LbBtnHold .yesBtn,
+.LbBtnHold span.yesBtn {
+    background: #053C8E;
+    color: #f2f2ee
+}
+.LbBtnHold span.noBtn a,
+.LbBtnHold span.yesBtn a {
+    color: #fff
+}
+.LbBtnHold .noBtn,
+.LbBtnHold span.noBtn {
+    background: #bfbfbf;
+    color: #474747
+}
+
+/*Modal Pop-up styling starts*/
+.overlayN {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 9999;
+  display: block;
+}
+
+.overlayN .cancel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: default;
+}
+.overlayN:target,.overlayN.showMsg {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.popup {
+  margin: 75px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #666;
+  width: 90%;
+  min-height: 150px;
+  max-height: 500px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  position: relative;
+  border-radius: 10px;
+}
+.popup.light{width:600px;}
+.bTBor{position: absolute;bottom:0;width:100%;background:#eb8e15;height:6px;left:0;border-radius: 0 0 10px 10px;}
+
+
+.popup h2 {
+  margin-top: 0;
+  color: #282828;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.popup h3 {
+  margin: 0;
+  color: #282828;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.popup .close {
+  position: absolute;
+  width: 27px;
+    height: 27px;
+    top: -52px;
+  right: 0;
+  opacity: 1;
+  transition: all 200ms;
+  font-size: 48px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+}
+.popup .close:hover {
+  opacity: 1;
+}
+.popup .content {
+  max-height: 400px;
+  overflow: auto;
+}
+.popup p {
+  margin: 0 0 10px;
+  font-weight:400;
+  color:#333;
+  font-size:20px;
+  text-align: center;
+}
+.popup ol{padding: 0 15px;}
+.popup ul{padding: 0 18px;}
+.popup ol li, .popup ul li {
+  font-weight:400;
+  color:#333;
+  font-size:13px;
+  text-align: justify;
+}
+.popup p:last-child {
+  margin: 0;
+} 
+.popup .mCSB_inside>.mCSB_container{margin-right:0;}
+.popup .mCSB_scrollTools{width:6px;opacity:1;}
+.popup .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:6px;}
+.popup .mCS-dark.mCSB_scrollTools .mCSB_draggerRail{background-color:transparent;}
+.popup .mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color: #063b6d !important;}
+/*Modal Pop-up styling ends*/

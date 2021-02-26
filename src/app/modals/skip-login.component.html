@@ -1,0 +1,37 @@
+<div class="modal fade in"
+     id="invaliduser"
+     role="dialog"
+     aria-hidden="false"
+     style="display: block;">
+  <div class="modal-backdrop fade in"> </div>
+  <div class="modal-dialog" style="z-index: 1050;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button"
+                id="btnvalid"
+                class="close"
+                data-dismiss="modal"
+                style="cursor: pointer"
+                (click)="close()">
+          x
+        </button>
+        <h4 class="modal-title">&nbsp;</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          You are not authorized, please login / register at our website to continue.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button"
+                id="btnvalid1"
+                class="btn btn-default"
+                data-dismiss="modal"
+                style="cursor: pointer"
+                (click)="close()">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

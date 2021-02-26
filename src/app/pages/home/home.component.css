@@ -1,0 +1,371 @@
+@media(max-width:1360px) {
+}
+
+@media(max-width:1199px) {
+}
+
+@media(max-width:1024px) and (min-width:768px) {
+}
+
+@media(max-width:991px) {
+}
+
+@media(max-width:768px) {
+  .apr-popup .content {
+    padding: 8rem 2rem;
+  }
+
+  .ui-popup-card-wrap .card-im-innerblock .card-member-names {
+    max-width: 65%;
+  }
+
+  .ui-popup-card-wrap .card-im-innerblock .card-member-1more {
+    max-width: 35%;
+  }
+
+  .ui-popup-card-wrap .card-main-block .card-inner-block {
+    min-height: initial;
+  }
+
+  .renew-list-scroll {
+    max-height: 90vh;
+  }
+
+  .apr-popup .thankyou-section h3 {
+    margin-top: 0rem;
+  }
+
+  .thankyou-content img {
+    margin-bottom: 2rem;
+  }
+
+  .card-main-block p {
+    text-align: center;
+  }
+}
+
+@media(max-width:767px) {
+  .ui-form-block.pad-top8 {
+    padding-top: 3rem;
+  }
+
+  .apr-section-content-padding {
+    padding: 2rem 0 12rem 0;
+  }
+
+  .phone-otp-section span.ui-error {
+    width: 75%;
+    font-size: 1.1rem;
+  }
+
+  .ui-submit-btn.fixedBtn .apr-submit-btn {
+    width: 90%;
+  }
+
+  .apr-popup .content {
+    padding: 8rem 2rem;
+  }
+
+  .apr-popup .section-content {
+    padding: 0rem 0 6rem 0;
+  }
+
+  .apr-popup .ui-submit-btn {
+    padding-top: 1rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  .ui-popup-card-wrap .card-main-block {
+    width: 100%;
+    margin: 0 0rem 2rem 0;
+  }
+
+    .ui-popup-card-wrap .card-main-block .card-inner-block {
+      padding: 1.5rem 1.5rem;
+    }
+
+  .ui-popup-card-wrap .card-im-innerblock .card-member-names {
+    max-width: 65%;
+  }
+
+  .ui-popup-card-wrap .card-im-innerblock .card-member-1more {
+    max-width: 35%;
+  }
+
+  .ui-popup-card-wrap .card-result-block {
+    font-size: 1.3rem;
+  }
+
+  .ui-popup-card-wrap h4, .ui-popup-card-wrap h4 a, .ui-popup-card-wrap h4 a:hover, .ui-popup-card-wrap h4 a:focus {
+    font-size: 1.6rem;
+  }
+
+  .ui-popup-card-wrap .card-im-innerblock, .card-due-renewal-date h6 {
+    font-size: 1.3rem;
+  }
+
+  .apr-popup .popup {
+    height: initial;
+  }
+
+  .mobile-thankyou-height {
+    height: 80vh;
+  }
+
+  .renew-list-scroll {
+    max-height: initial;
+  }
+
+  .aprBlock .banner-para {
+    padding-top: 0;
+  }
+
+    .aprBlock .banner-para br {
+      display: none;
+    }
+
+  .aprBlock .banner-para {
+    font-size: 3rem;
+  }
+
+  .banner-para span {
+    font-size: 1.8rem;
+    padding-right: 7rem;
+  }
+
+  .aprBlock ul.ui-banner-list li {
+    font-size: 1.5rem;
+    width: 50%;
+    display: inline;
+    margin-right: 10px;
+  }
+
+  ul.ui-banner-list li img {
+    width: auto;
+    margin-right: 1rem !important;
+    vertical-align: bottom;
+  }
+
+  .aprBlock .ui-form-block .ui-submit-btn.fixedBtn {
+    background: #00305b;
+    top: initial;
+    bottom: 0;
+    text-align: center;
+  }
+
+  .thankyou-content img {
+    width: 50px;
+  }
+
+  .apr-popup .thankyou-section h3 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .apr-popup .thankyou-section p {
+    font-size: 1.4rem;
+  }
+
+  .apr-popup .thankyou-content p a {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .apr-popup .content p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .btn-white {
+    margin-right: 0.5rem;
+  }
+
+  .head-insurance {
+    max-width: 100%;
+    margin-bottom: 3rem !important;
+  }
+
+  .policy-tabs {
+    max-width: 100%;
+  }
+
+  .policy-radio input[type="radio"] + label {
+    padding: 2.2rem 0 2rem 5rem;
+  }
+
+    .policy-radio input[type="radio"] + label.home-owner-raido:after,
+    .policy-radio input[type="radio"] + label.home-tenant-raido:after,
+    .policy-radio input[type="radio"]:checked + label.home-owner-raido:after,
+    .policy-radio input[type="radio"]:checked + label.home-tenant-raido:after {
+      background-position: 15px 16px;
+    }
+
+    .policy-radio input[type="radio"] + label.home-tenant-raido:after {
+      background-position: 15px 16px;
+    }
+
+  #buying-insurance .input-block,
+  #buying-insurance-contents .input-block,
+  #value-structure-field.input-block,
+  #value-builtarea-field .input-block {
+    max-width: 100%;
+  }
+
+  img.whatsapp-img {
+    margin-top: 1rem;
+    width: auto;
+  }
+
+  ul.ui-banner-list {
+    padding: 2.5rem 0 0;
+  }
+
+  .head-insurance h4 {
+    font-size: 2rem;
+  }
+
+    .head-insurance h4 img {
+      display: none;
+    }
+
+  .why-customer-love h2, .why-customer-love p {
+    text-align: center;
+  }
+
+  .why-customer-love .ui-card-wrap .card-block {
+    display: block;
+    width: 100%;
+    margin-bottom: 6rem;
+  }
+
+    .why-customer-love .ui-card-wrap .card-block span {
+      padding: 0 4rem 1rem;
+    }
+
+  .hi-img-detach {
+    float: right;
+  }
+
+  .hi-para-detach {
+    float: left;
+  }
+
+  .why-customer-love {
+    padding: 4rem 0 0rem 0;
+  }
+
+  .why-home-insurance .ui-policy-documents p span, .why-home-insurance .ui-policy-documents p a,
+  .what-included-andnot .ui-policy-documents p span, .what-included-andnot .ui-policy-documents p a {
+    padding: 0 1rem 0 0;
+  }
+
+  .why-home-insurance .ui-policy-documents p a,
+  .what-included-andnot .ui-policy-documents p a {
+    display: inline-block;
+  }
+
+    .why-home-insurance .ui-policy-documents p a:after,
+    .what-included-andnot .ui-policy-documents p a:after {
+      display: none;
+    }
+
+  .why-home-insurance .ui-policy-documents,
+  .what-included-andnot .ui-policy-documents {
+    padding: 3rem 0rem 0;
+  }
+
+  .hitab-head li {
+    min-width: auto;
+  }
+
+  .hi-ui-check-list li {
+    width: auto;
+  }
+
+  .claim-calmly-section .dot {
+    display: none;
+  }
+
+  .claim-calmly-section .claim-blocks li span {
+    text-align: left;
+  }
+
+  .claim-calmly-section .claim-blocks li {
+    width: 13rem;
+    height: 13rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .ui-claimimg-dth img {
+    top: 3rem;
+  }
+
+  .get-tab-section {
+    width: 100%;
+  }
+
+    .get-tab-section .hitab-head {
+      white-space: nowrap;
+      display: -webkit-flex;
+      display: flex;
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+
+      .get-tab-section .hitab-head li {
+        min-width: 13.7rem;
+      }
+
+  .get-insurance-blocks {
+    padding: 0 0.5rem;
+  }
+
+  .ui-reviewsrating-slider .item {
+    padding: 2rem 2rem;
+    border: 1px solid #cbcdce;
+    border-radius: 1rem;
+    min-height: 30rem;
+    margin: 3rem 1rem 2rem;
+  }
+
+  .ui-reviewsrating-slider .rating-topbar:after {
+    top: 3.1rem;
+    right: 3rem;
+  }
+
+  .ui-reviewsrating-slider .rating-topbar h3 {
+    border-right: 0px solid #b2b2b2;
+    display: block;
+  }
+
+  .ui-reviewsrating-slider .rating-fl {
+    margin-left: 0;
+  }
+
+  h1, h3 {
+    font-size: 3rem;
+  }
+
+  .aprBlock ul.ui-banner-list li:nth-child(2) {
+    margin-right: 0;
+  }
+}
+
+@media(max-width:480px) {
+}
+
+@media(max-width:320px) {
+  .policy-radio input[type="radio"] + label {
+    font-size: 1.3rem;
+    padding: 2.2rem 0 2rem 4.5rem;
+  }
+
+    .policy-radio input[type="radio"] + label.home-owner-raido:after, .policy-radio input[type="radio"] + label.home-tenant-raido:after, .policy-radio input[type="radio"]:checked + label.home-owner-raido:after, .policy-radio input[type="radio"]:checked + label.home-tenant-raido:after {
+      background-position: 12px 16px;
+    }
+
+  .aprBlock ul.ui-banner-list li {
+    font-size: 1.2rem;
+  }
+}

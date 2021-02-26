@@ -1,0 +1,24 @@
+h1,h2,h3,h4,h5,h6, p
+{
+  color: black;
+}
+.background {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    overflow: auto;
+    height: 100%;
+    z-index: 10000
+}
+.cursor{
+    cursor:pointer
+}
+
+.modal-backdrop {
+  z-index: 1040 !important;
+}
+
+.modal-content {
+  margin: 2px auto;
+  z-index: 1100 !important;
+}

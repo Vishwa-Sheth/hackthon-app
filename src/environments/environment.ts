@@ -2,8 +2,25 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+/*
 export const environment = {
-  production: false
+  production: false,
+  deployUrl: '/docs/default-source/apps/login/',
+  Login: 'website',
+  Password: 'QDa0O4BeHK0KT1NSJWVe2w==',
+  LoginType: 'App',
+  ClientIPAddress: 'Monocept',
+  DeviceId: 'Monocept',
+}; */
+
+export const environment = {
+  production: false,
+  deployUrl: '/docs/default-source/apps/login/',
+  Login: 'kunal@monocept.com',
+  Password: 'ZOQ+oDaHKehjrZHXzRZ83g==',
+  LoginType: 'User',
+  ClientIPAddress: 'Monocept',
+  DeviceId: 'Monocept',
 };
 
 /*
